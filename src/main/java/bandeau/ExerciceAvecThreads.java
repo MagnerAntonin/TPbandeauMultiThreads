@@ -1,7 +1,6 @@
 package bandeau;
 
 public class ExerciceAvecThreads {
-
     public static void main(String[] args) {
         ExerciceAvecThreads instance = new ExerciceAvecThreads();
         instance.exemple();
