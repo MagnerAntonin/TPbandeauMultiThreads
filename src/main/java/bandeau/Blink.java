@@ -13,7 +13,11 @@ public class Blink extends Effect {
     }
 
     @Override
+<<<<<<< HEAD
     public void playOn(Bandeau bandeau) {
+=======
+    public void playOn(BandeauLock bandeau) {
+>>>>>>> 312e0f2 (Final Commit)
         super.init(bandeau);
         String message = bandeau.getMessage();
         bandeau.setMessage("");

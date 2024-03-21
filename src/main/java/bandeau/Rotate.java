@@ -23,7 +23,7 @@ public class Rotate extends Effect {
     }
 
     @Override
-    public void playOn(Bandeau b) {
+    public void playOn(BandeauLock b) {
         super.init(b);
         int delay = dureeDunTour / nombreDePas;
         double old = b.getRotation();

@@ -23,7 +23,7 @@ public class FontEnumerator extends Effect {
     }
 
     @Override
-    public void playOn(Bandeau bandeau) {
+    public void playOn(BandeauLock bandeau) {
         Font initial = bandeau.getFont();
 
         for (int repeat = 0; repeat < maxFonts; repeat++) {

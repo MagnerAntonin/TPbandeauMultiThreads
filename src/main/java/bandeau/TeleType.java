@@ -13,7 +13,7 @@ public class TeleType extends Effect {
     }
 
     @Override
-    public void playOn(Bandeau b) {
+    public void playOn(BandeauLock b) {
         super.init(b);
         String message = b.getMessage();
         for (int i = 0; i <= message.length(); i++) {

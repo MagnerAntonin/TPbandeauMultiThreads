@@ -19,7 +19,7 @@ public class RandomEffect extends Effect {
     }
 
     @Override
-    public void playOn(Bandeau b) {
+    public void playOn(BandeauLock b) {
         super.init(b);
         Font initial = b.getFont();
         String message = b.getMessage();

@@ -13,7 +13,7 @@ public class Zoom extends Effect {
     }
 
     @Override
-    public void playOn(Bandeau b) {
+    public void playOn(BandeauLock b) {
         super.init(b);
         for (int fontSize = 1; fontSize < 40; fontSize++) {
             b.setFont(

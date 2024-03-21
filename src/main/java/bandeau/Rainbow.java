@@ -20,7 +20,7 @@ public class Rainbow extends Effect {
     }
 
     @Override
-    public void playOn(Bandeau b) {
+    public void playOn(BandeauLock b) {
         super.init(b);
         for (Color c : myColors) {
             b.setForeground(c);

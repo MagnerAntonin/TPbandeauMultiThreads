@@ -15,7 +15,11 @@ public abstract class Effect {
         myMessage = message;
     }
 
+<<<<<<< HEAD
     protected void init(Bandeau bandeau) {
+=======
+    protected void init(BandeauLock bandeau) {
+>>>>>>> 312e0f2 (Final Commit)
         if (null != myMessage) {
             bandeau.setMessage(myMessage);
         }
@@ -25,5 +29,9 @@ public abstract class Effect {
     /**
      * Jouer cet effet sur un bandeau
      */
+<<<<<<< HEAD
     abstract public void playOn(Bandeau bandeau);
+=======
+    abstract public void playOn(BandeauLock bandeau);
+>>>>>>> 312e0f2 (Final Commit)
 }

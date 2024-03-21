@@ -5,7 +5,7 @@ import java.awt.Font;
 
 public class ExempleDUtilisation {
 
-    private final Bandeau monBandeau = new Bandeau();
+    private final BandeauLock monBandeau = new BandeauLock();
 
     public static void main(String[] args) {
         new ExempleDUtilisation().exemple();
